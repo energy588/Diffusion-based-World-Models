@@ -141,7 +141,7 @@ For a more organized summary, see:
 ## 🗂️ Project Structure
 
 ```text
-Diffusion_based_World_Models_GitHub_Final/
+root/
 ├── README.md
 ├── CONTRIBUTING.md
 ├── assets/
