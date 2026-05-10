@@ -1,13 +1,299 @@
-# 📚 Diffusion-based World Model
+<div align="center">
 
-This repo is used for recording, tracking, and benchmarking several recent World Models methods, as a supplement to our survey.
+<img src="assets/project-page-preview.png" width="100%" alt="Project page style preview">
 
-> 📊 Statistics: A total of 360+ papers were included.  
-> If you find this repository useful in your research, please kindly consider giving a star ⭐ and a citation.
+<br>
+<br>
+
+# Diffusion-based World Models: A Survey
+
+### A Living Survey, Curated Paper List, Taxonomy, Dataset Hub, and Research Roadmap
+
+<p>
+  <a href="https://arxiv.org/abs/2504.10724"><img src="https://img.shields.io/badge/Paper-arXiv%3A2504.10724-b31b1b?style=for-the-badge" alt="Paper"></a>
+  <img src="https://img.shields.io/badge/Papers-360%2B-4f46e5?style=for-the-badge" alt="360+ papers">
+  <img src="https://img.shields.io/badge/Years-2016--2026-7c3aed?style=for-the-badge" alt="2016-2026">
+  <img src="https://img.shields.io/badge/Domains-3%20Major%20Areas-059669?style=for-the-badge" alt="3 domains">
+  <img src="https://img.shields.io/badge/Status-Living%20Survey-f59e0b?style=for-the-badge" alt="living survey">
+</p>
+
+<p>
+  <a href="#-overview"><b>Overview</b></a> ·
+  <a href="#-high-end-visuals"><b>Premium Visuals</b></a> ·
+  <a href="#-original-paper-figures"><b>Original Figures</b></a> ·
+  <a href="#-project-structure"><b>Project Structure</b></a> ·
+  <a href="#-datasets--benchmarks"><b>Datasets</b></a> ·
+  <a href="#-paper-list"><b>Paper List</b></a> ·
+  <a href="#-citation"><b>Citation</b></a>
+</p>
+
+> **Toward controllable, interactive, and physically grounded world intelligence.**
+
+</div>
 
 ---
 
+## 📢 News
+
+- **[2026]** We release this project-page-style GitHub repository for **Diffusion-based World Models**.
+- **[2026]** The repository now includes **both original paper figures and redesigned premium visuals** for better presentation.
+- **[2026]** The paper list currently covers **360+ references** spanning **2016–2026**.
+- **[2026]** We organize the topic into **autonomous driving**, **embodied intelligence**, and **general-purpose worlds**.
+
+---
+
+## 🌐 Overview
+
+World models aim to learn an internal simulator of the real world, enabling intelligent agents to **perceive**, **predict**, **imagine**, **reason**, **plan**, and **act**. Diffusion models have recently become a powerful foundation for world modeling because they support **multimodal generation**, **high-fidelity future synthesis**, **conditional controllability**, and **long-horizon imagination**.
+
+This repository is designed in a **project page style** rather than a plain paper list. It provides:
+
+<table>
+<tr>
+<td width="25%" align="center">
+
+### 📚 Curated Paper List
+A living collection of representative papers on diffusion-based world models and related foundations.
+
+</td>
+<td width="25%" align="center">
+
+### 🧭 Unified Taxonomy
+A structured map of tasks, domains, capabilities, datasets, and research trends.
+
+</td>
+<td width="25%" align="center">
+
+### 🖼️ Visual Assets
+Both paper-original figures and redesigned premium visuals for GitHub presentation.
+
+</td>
+<td width="25%" align="center">
+
+### 🔭 Research Roadmap
+A concise summary of open problems and future opportunities for the field.
+
+</td>
+</tr>
+</table>
+
+
+## 📄 Original Paper Figures
+
+> Original figures preserved from the survey manuscript.
+
+<div align="center">
+
+<div style="width: 100%; margin-bottom: 16px;">
+  <div style="width: 100%; background: #ffffff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 16px rgba(0,0,0,0.04);">
+    <img src="assets/dwm-banner.png" style="width: 100%; display: block;" alt="Original survey roadmap figure">
+  </div>
+</div>
+
+<div style="width: 100%; margin-bottom: 16px;">
+  <div style="width: 100%; background: #ffffff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 16px rgba(0,0,0,0.04);">
+    <img src="assets/dwm-concept.png" style="width: 100%; display: block;" alt="Original concept figure">
+  </div>
+</div>
+
+<div style="width: 100%; margin-bottom: 16px;">
+  <div style="width: 100%; background: #ffffff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 16px rgba(0,0,0,0.04);">
+    <img src="assets/dwm-paper-galaxy.png" style="width: 100%; display: block;" alt="Original paper galaxy figure">
+  </div>
+</div>
+
+<div style="width: 100%; margin-bottom: 16px;">
+  <div style="width: 100%; background: #ffffff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 16px rgba(0,0,0,0.04);">
+    <img src="assets/dwm-datasets.png" style="width: 100%; display: block;" alt="Original datasets table">
+  </div>
+</div>
+
+</div>
+
+---
+
+## 🧠 Core Themes
+
+| Theme | Description |
+|---|---|
+| **Autonomous Driving** | Driving scene generation, trajectory-conditioned simulation, occupancy/BEV forecasting, closed-loop planning, and long-tail scenario synthesis. |
+| **Embodied Intelligence** | Action-conditioned prediction, robot manipulation, VLA reasoning, policy learning, sim-to-real transfer, and interactive imagination. |
+| **General-purpose Worlds** | Long video generation, digital twins, game-like simulation, 3D/4D worlds, and scalable world foundation models. |
+| **Key Capabilities** | Long-horizon evolution, multimodal fusion, interactivity, spatiotemporal consistency, and environment diversification. |
+| **Open Problems** | Efficiency, controllability, causal reasoning, physical grounding, evaluation, and verification. |
+
+---
+
+## 🧪 Datasets & Benchmarks
+
+| Domain | Representative Datasets |
+|---|---|
+| Autonomous Driving | nuScenes, Waymo, Argoverse 2, nuPlan, NAVSIM, OpenDV |
+| Embodied Intelligence | Open X-Embodiment, RT-1, CALVIN, LIBERO, BridgeData, Ego4D |
+| General-purpose Worlds | UCF101, MSR-VTT, SSv2, WebVid, Minecraft, Procgen, MiniGrid |
+
+For a more organized summary, see:
+- [`papers/datasets.md`](papers/datasets.md)
+- [`resources/benchmarks.md`](resources/benchmarks.md)
+
+---
+
+## 🗂️ Project Structure
+
+```text
+Diffusion_based_World_Models_GitHub_Final/
+├── README.md
+├── CONTRIBUTING.md
+├── assets/
+│   ├── project-page-preview.png
+│   ├── dwm-banner-premium.png
+│   ├── dwm-principle-premium.png
+│   ├── dwm-original-figures-premium.png
+│   ├── dwm-banner.png
+│   ├── dwm-concept.png
+│   ├── dwm-paper-galaxy.png
+│   ├── dwm-datasets.png
+│   └── paper_figures/
+├── papers/
+│   ├── README.md
+│   ├── autonomous-driving.md
+│   ├── embodied-intelligence.md
+│   ├── general-worlds.md
+│   └── datasets.md
+└── resources/
+    ├── README.md
+    ├── awesome-world-models.md
+    ├── benchmarks.md
+    └── survey-notes.md
+```
+
+---
+
+## 🗃️ Full Original Figure Gallery
+
+<div align="center">
+
+<div align="center">
+
+<!-- 每行两张图，16:9 统一比例，图片完整显示不被裁剪 -->
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; margin-bottom: 12px;">
+  <div style="flex: 0 0 calc(50% - 8px); max-width: calc(50% - 8px); min-width: 280px;">
+    <div style="position: relative; width: 100%; padding-bottom: 56.25%; background: #ffffff; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+      <img src="assets/paper_figures/fig02_paper_quantity_statistics.png" alt="Fig 2" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; display: block;">
+    </div>
+  </div>
+  <div style="flex: 0 0 calc(50% - 8px); max-width: calc(50% - 8px); min-width: 280px;">
+    <div style="position: relative; width: 100%; padding-bottom: 56.25%; background: #ffffff; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+      <img src="assets/paper_figures/fig13_environment_diversification.png" alt="Fig 13" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; display: block;">
+    </div>
+  </div>
+</div>
+
+
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; margin-bottom: 12px;">
+  <div style="flex: 0 0 calc(50% - 8px); max-width: calc(50% - 8px); min-width: 280px;">
+    <div style="position: relative; width: 100%; padding-bottom: 56.25%; background: #ffffff; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+      <img src="assets/paper_figures/fig05_autonomous_driving.png" alt="Fig 5" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; display: block;">
+    </div>
+  </div>
+  <div style="flex: 0 0 calc(50% - 8px); max-width: calc(50% - 8px); min-width: 280px;">
+    <div style="position: relative; width: 100%; padding-bottom: 56.25%; background: #ffffff; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+      <img src="assets/paper_figures/fig06_embodied_intelligence.png" alt="Fig 6" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; display: block;">
+    </div>
+  </div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; margin-bottom: 12px;">
+  <div style="flex: 0 0 calc(50% - 8px); max-width: calc(50% - 8px); min-width: 280px;">
+    <div style="position: relative; width: 100%; padding-bottom: 56.25%; background: #ffffff; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+      <img src="assets/paper_figures/fig07_general_domains.png" alt="Fig 7" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; display: block;">
+    </div>
+  </div>
+  <div style="flex: 0 0 calc(50% - 8px); max-width: calc(50% - 8px); min-width: 280px;">
+    <div style="position: relative; width: 100%; padding-bottom: 56.25%; background: #ffffff; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+      <img src="assets/paper_figures/fig08_long_term_evolution.png" alt="Fig 8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; display: block;">
+    </div>
+  </div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; margin-bottom: 12px;">
+  <div style="flex: 0 0 calc(50% - 8px); max-width: calc(50% - 8px); min-width: 280px;">
+    <div style="position: relative; width: 100%; padding-bottom: 56.25%; background: #ffffff; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+      <img src="assets/paper_figures/fig09_multimodal_fusion.png" alt="Fig 9" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; display: block;">
+    </div>
+  </div>
+  <div style="flex: 0 0 calc(50% - 8px); max-width: calc(50% - 8px); min-width: 280px;">
+    <div style="position: relative; width: 100%; padding-bottom: 56.25%; background: #ffffff; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+      <img src="assets/paper_figures/fig10_interactive_dynamics.png" alt="Fig 10" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; display: block;">
+    </div>
+  </div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; margin-bottom: 12px;">
+  <div style="flex: 0 0 calc(50% - 8px); max-width: calc(50% - 8px); min-width: 280px;">
+    <div style="position: relative; width: 100%; padding-bottom: 56.25%; background: #ffffff; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+      <img src="assets/paper_figures/fig11_spatiotemporal_coherence.png" alt="Fig 11" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; display: block;">
+    </div>
+  </div>
+  <div style="flex: 0 0 calc(50% - 8px); max-width: calc(50% - 8px); min-width: 280px;">
+    <div style="position: relative; width: 100%; padding-bottom: 56.25%; background: #ffffff; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+      <img src="assets/paper_figures/fig12_multi_environment.png" alt="Fig 12" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; display: block;">
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+
+---
+
+## 🤝 Contributing
+
+We warmly welcome contributions. You can help by:
+
+- adding missing papers,
+- correcting metadata,
+- supplementing code / project links,
+- improving taxonomy or tags,
+- refining dataset and benchmark summaries.
+
+Please see [`CONTRIBUTING.md`](CONTRIBUTING.md) for details.
+
+---
+
+## 📚 Paper Navigation
+
+For category-wise browsing, see:
+
+- [`papers/README.md`](papers/README.md)
+- [`papers/autonomous-driving.md`](papers/autonomous-driving.md)
+- [`papers/embodied-intelligence.md`](papers/embodied-intelligence.md)
+- [`papers/general-worlds.md`](papers/general-worlds.md)
+- [`papers/datasets.md`](papers/datasets.md)
+
+---
+
+## 📌 Citation
+
+```bibtex
+@article{wang2026diffusionworldmodels,
+  title   = {Diffusion-based World Models: A Survey},
+  author  = {Wang, Gang and Liu, Zhen and Zhou, Mingliang and Zhang, Yugui and Yang, Guang and Yang, Lei and Song, Ziying},
+  journal = {arXiv preprint arXiv:2504.10724},
+  year    = {2026}
+}
+```
+
+---
+
+# 📑 Paper List
+
+The following paper list is continuously updated. We welcome pull requests for missing papers, code links, project pages, datasets, and benchmark resources.
+
 ## 📑 Year Directory
+
 - [2026](#2026)
 - [2025](#2025)
 - [2024](#2024)
