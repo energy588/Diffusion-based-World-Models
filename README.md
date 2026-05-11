@@ -247,46 +247,6 @@ root/
 
 </div>
 
----
-
-## 🤝 Contributing
-
-We warmly welcome contributions. You can help by:
-
-- adding missing papers,
-- correcting metadata,
-- supplementing code / project links,
-- improving taxonomy or tags,
-- refining dataset and benchmark summaries.
-
-Please see [`CONTRIBUTING.md`](CONTRIBUTING.md) for details.
-
----
-
-## 📚 Paper Navigation
-
-For category-wise browsing, see:
-
-- [`papers/README.md`](papers/README.md)
-- [`papers/autonomous-driving.md`](papers/autonomous-driving.md)
-- [`papers/embodied-intelligence.md`](papers/embodied-intelligence.md)
-- [`papers/general-worlds.md`](papers/general-worlds.md)
-- [`papers/datasets.md`](papers/datasets.md)
-
----
-
-## 📌 Citation
-
-```bibtex
-@article{wang2026diffusionworldmodels,
-  title   = {Diffusion-based World Models: A Survey},
-  author  = {Wang, Gang and Liu, Zhen and Zhou, Mingliang and Zhang, Yugui and Yang, Guang and Yang, Lei and Song, Ziying},
-  journal = {arXiv preprint arXiv:2504.10724},
-  year    = {2026}
-}
-```
-
----
 
 # 📑 Paper List
 
@@ -676,3 +636,44 @@ The following paper list is continuously updated. We welcome pull requests for m
 - **UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild** | [Paper](https://arxiv.org/pdf/1212.0402v1) | [Dataset](https://opendatalab.org.cn/OpenDataLab/UCF101)
 - **MSR-VTT:ALargeVideo Description Dataset for Bridging Video and Language** | [Paper](https://openaccess.thecvf.com/content_cvpr_2016/papers/Xu_MSR-VTT_A_Large_CVPR_2016_paper.pdf) | [Dataset](https://opendatalab.org.cn/OpenDataLab/MSR-VTT)
 - **ABenchmark Dataset and Evaluation Methodology for Video Object Segmentation** | [Paper](https://openaccess.thecvf.com/content_cvpr_2016/papers/Perazzi_A_Benchmark_Dataset_CVPR_2016_paper.pdf) | [Dataset](https://opendatalab.org.cn/OpenDataLab/DAVIS_2016)
+
+- ---
+
+## 🤝 Contributing
+
+We warmly welcome contributions. You can help by:
+
+- adding missing papers,
+- correcting metadata,
+- supplementing code / project links,
+- improving taxonomy or tags,
+- refining dataset and benchmark summaries.
+
+Please see [`CONTRIBUTING.md`](CONTRIBUTING.md) for details.
+
+---
+
+## 📚 Paper Navigation
+
+For category-wise browsing, see:
+
+- [`papers/README.md`](papers/README.md)
+- [`papers/autonomous-driving.md`](papers/autonomous-driving.md)
+- [`papers/embodied-intelligence.md`](papers/embodied-intelligence.md)
+- [`papers/general-worlds.md`](papers/general-worlds.md)
+- [`papers/datasets.md`](papers/datasets.md)
+
+---
+
+## 📌 Citation
+
+```bibtex
+@article{wang2026diffusionworldmodels,
+  title   = {Diffusion-based World Models: A Survey},
+  author  = {Wang, Gang and Liu, Zhen and Zhou, Mingliang and Zhang, Yugui and Yang, Guang and Yang, Lei and Song, Ziying},
+  journal = {arXiv preprint arXiv:2504.10724},
+  year    = {2026}
+}
+```
+
+---
