@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/project-page-preview.png" width="100%" alt="Project page style preview">
+
 
 <br>
 <br>
