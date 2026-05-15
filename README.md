@@ -1,10 +1,5 @@
 <div align="center">
 
-<img src="assets/project-page-preview.png" width="100%" alt="Project page style preview">
-
-<br>
-<br>
-
 # Diffusion-based World Models: A Survey
 
 ### A Living Survey, Curated Paper List, Taxonomy, Dataset Hub, and Research Roadmap
@@ -176,7 +171,10 @@ The following paper list is continuously updated. We welcome pull requests for m
 
 ---
 
-## 2026
+<div align="left">
+
+<h2 align="center">2026</h2>
+
 - **VerseCrafter: Dynamic Realistic Video World Model with 4D Geometric Control** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*CVPR 2026*</span> | [Paper](https://arxiv.org/abs/2601.05138) | [Code](https://github.com/TencentARC/VerseCrafter)
 - **NeoVerse: Enhancing 4D World Model with in-the-wild Monocular Videos** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*CVPR 2026*</span> | [Paper](https://arxiv.org/abs/2601.00393) | [Code](https://github.com/IamCreateAI/NeoVerse)
 - **LongStream: Long-Sequence Streaming Autoregressive Visual Geometry** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*CVPR 2026*</span> | [Paper](https://arxiv.org/abs/2602.13172) | [Code](https://github.com/3DAgentWorld/LongStream)
@@ -196,7 +194,8 @@ The following paper list is continuously updated. We welcome pull requests for m
 
 ---
 
-## 2025
+<h2 align="center">2025</h2>
+
 - **UniWorld-V1: High-Resolution Semantic Encoders for Unified Visual Understanding and Generation** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*arXiv 25.06*</span> | [Paper](https://arxiv.org/abs/2506.03147)
 - **MagicDrive-V2: High-Resolution Long Video Generation for Autonomous Driving with Adaptive Control** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*ICCV 2025*</span> | [Paper](https://arxiv.org/abs/2411.13807) | [Code](https://github.com/flymin/MagicDrive-V2)
 - **VLM-SAFE: Vision-Language Model-Guided Safety-Aware Reinforcement Learning with World Models for Autonomous Driving** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*arXiv 25.05*</span> | [Paper](https://arxiv.org/abs/2505.16377) | [Code](https://github.com/ys-qu/vlm-safe)
@@ -382,7 +381,8 @@ The following paper list is continuously updated. We welcome pull requests for m
 
 ---
 
-## 2024
+<h2 align="center">2024</h2>
+
 - **Visual Point Cloud Forecasting enables Scalable Autonomous Driving** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*CVPR 2024*</span> | [Paper](https://arxiv.org/abs/2312.17655) | [Code](https://github.com/OpenDriveLab/ViDAR)
 - **Genie: Generative interactive environments** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*arXiv 24.02*</span> | [Paper](https://arxiv.org/abs/2402.15391) | [Code](https://github.com/myscience/open-genie)
 - **Sora: Creating video from text** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*OpenAI Blog 2024*</span> | [Paper](https://karavideo.ai/blog/sora-creating-video-from-text/)
@@ -464,7 +464,8 @@ The following paper list is continuously updated. We welcome pull requests for m
 
 ---
 
-## 2023
+<h2 align="center">2023</h2>
+
 - **Instructpix2pix: Learning to follow image editing instructions** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*arXiv 23.01*</span> | [Paper](https://arxiv.org/abs/2211.09800) | [Code](https://github.com/timothybrooks/instruct-pix2pix)
 - **Scalable diffusion models with transformers** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*arXiv 23.05*</span> | [Paper](https://arxiv.org/abs/2212.09748) | [Code](https://github.com/facebookresearch/DiT)
 - **Compositional visual generation with composable diffusion models** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*ECCV 2022*</span> | [Paper](https://arxiv.org/abs/2206.01714) | [Code](https://github.com/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models)
@@ -490,7 +491,8 @@ The following paper list is continuously updated. We welcome pull requests for m
 - **TrafficBots: Towards World Models for Autonomous Driving Simulation and Motion Prediction** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*ICRA 2023*</span> | [Paper](https://arxiv.org/abs/2303.04116) | [Code](https://github.com/zhejz/TrafficBots)
 - **Categorical Traffic Transformer: Interpretable and Diverse Behavior Prediction with Tokenized Latent** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*arXiv 23.11*</span> | [Paper](https://arxiv.org/abs/2311.18307)
 
-## 2022
+<h2 align="center">2022</h2>
+
 - **Survey of hallucination in natural language generation** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*arXiv 22.02*</span> | [Paper](https://arxiv.org/abs/2202.03629)
 - **A path towards autonomous machine intelligence version 0.9.2, 2022-06-27** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*arXiv 22.06*</span> | [Paper](https://api.semanticscholar.org/CorpusID:251881108) | [Code](https://github.com/GanMaoyuan/notes-on-JEPA-paper)
 - **High-resolution image synthesis with latent diffusion models** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*CVPR 2022*</span> | [Paper](https://arxiv.org/abs/2112.10752) | [Code](https://github.com/CompVis/latent-diffusion)
@@ -512,7 +514,8 @@ The following paper list is continuously updated. We welcome pull requests for m
 - **Socially Compliant Navigation Dataset (SCAND): A Large-Scale Dataset of Demonstrations for Social Navigation** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*arXiv 22.05*</span> | [Paper](https://arxiv.org/abs/2203.15041) | [Dataset](https://www.cs.utexas.edu/~xiao/SCAND/SCAND.html)
 - **Mip-NeRF 360: Unbounded Anti-Aliased Neural Radiance Fields** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*arXiv 22.05*</span> | [Paper](https://arxiv.org/abs/2111.12077) | [Dataset](https://ieeexplore.ieee.org/document/9878829)
 
-## 2021
+<h2 align="center">2021</h2>
+
 - **Finetuned language models are zero-shot learners** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*arXiv 21.09*</span> | [Paper](https://arxiv.org/abs/2109.01652)
 - **Diffusion models beat gans on image synthesis** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*arXiv 21.05*</span> | [Paper](https://arxiv.org/abs/2105.05233) | [Code](https://github.com/shrrynsh/Diffusion_beats_gans_reproducibility)
 - **Tackling the generative learning trilemma with denoising diffusion gans** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*ICLR 2022*</span> | [Paper](https://arxiv.org/abs/2112.07804) | [Code](https://github.com/nvlabs/denoising-diffusion-gan)
@@ -522,7 +525,8 @@ The following paper list is continuously updated. We welcome pull requests for m
 - **Rapid Exploration for Open-World Navigation with Latent Goal Models** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*CoRL 2021*</span> | [Paper](https://openreview.net/forum?id=d_SWJhyKfVw)
 - **CLIP** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*arXiv 20.02*</span> | [Paper](https://arxiv.org/abs/2103.00020) | [Code](https://github.com/openai/CLIP)
 
-## 2020
+<h2 align="center">2020</h2>
+
 - **Language models are few-shot learners** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*arXiv 20.05*</span> | [Paper](https://arxiv.org/abs/2005.14165) | [Code](https://github.com/openai/gpt-3)
 - **Experience grounds language** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*EMNLP 2020*</span> | [Paper](https://arxiv.org/abs/2004.10151)
 - **Learning to simulate dynamic environments with gamegan** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*CVPR 2020*</span> | [Paper](https://arxiv.org/abs/2005.12126) | [Code](https://github.com/nv-tlabs/GameGAN_code)
@@ -531,21 +535,25 @@ The following paper list is continuously updated. We welcome pull requests for m
 - **Scalability in perception for autonomous driving: Waymo open dataset** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*CVPR 2020*</span> | [Paper](https://arxiv.org/abs/1912.04838) | [Code](https://github.com/waymo-research/waymo-open-dataset) | [Dataset](https://opendatalab.org.cn/OpenDataLab/Waymo)
 - **Leveraging Procedural Generation to Benchmark Reinforcement Learning** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*arXiv 20.07*</span> | [Paper](https://arxiv.org/abs/1912.01588) | [Dataset](https://opendatalab.com/OpenDataLab/ProcGen)
 
-## 2019
+<h2 align="center">2019</h2>
+
 - **HowTo100M** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*ICCV 2019*</span> | [Paper](https://arxiv.org/abs/1906.03327) | [Dataset](https://opendatalab.org.cn/OpenDataLab/HowTo100M)
 - **LaSOT** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*arXiv 18.09*</span> | [Paper](https://arxiv.org/abs/1809.07845) | [Dataset](https://opendatalab.org.cn/OpenDataLab/LaSOT)
 - **Local Light Field Fusion: Practical View Synthesis with Prescriptive Sampling Guidelines** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*SIGGRAPH 2019*</span> | [Paper](https://arxiv.org/abs/1905.00889) | [Dataset](https://bmild.github.io/llff/)
 
-## 2018
+<h2 align="center">2018</h2>
+
 - **World models** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*arXiv 18.03*</span> | [Paper](http://arxiv.org/abs/1803.10122) | [Code](https://github.com/worldmodels/worldmodels.github.io)
 - **Recurrent world models facilitate policy evolution** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*arXiv 18.09*</span> | [Paper](https://arxiv.org/abs/1809.01999)
 - **GS** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*arXiv 18.03*</span> | [Paper](https://arxiv.org/abs/1803.03254) | [Dataset](https://cvgl.stanford.edu/gonet/dataset/)
 
-## 2016
+<h2 align="center">2016</h2>
+
 - **UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*arXiv 12.12*</span> | [Paper](https://arxiv.org/pdf/1212.0402v1) | [Dataset](https://opendatalab.org.cn/OpenDataLab/UCF101)
 - **MSR-VTT: A Large Video Description Dataset for Bridging Video and Language** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*IEEE 2016*</span> | [Paper](https://openaccess.thecvf.com/content_cvpr_2016/papers/Xu_MSR-VTT_A_Large_CVPR_2016_paper.pdf) | [Dataset](https://opendatalab.org.cn/OpenDataLab/MSR-VTT)
 - **A Benchmark Dataset and Evaluation Methodology for Video Object Segmentation** <span style="text-shadow: 0 2px 0 #000; display: inline-block;">*IEEE 2016*</span> | [Paper](https://openaccess.thecvf.com/content_cvpr_2016/papers/Perazzi_A_Benchmark_Dataset_CVPR_2016_paper.pdf) | [Dataset](https://opendatalab.org.cn/OpenDataLab/DAVIS_2016)
 
+</div>
 
 ## 🤝 Contributing
 
