@@ -121,6 +121,7 @@ For a more organized summary, see:
 ---
 
 ## 🗂️ Project Structure
+<div align="center">
 
 ```text
 Diffusion_based_World_Models_GitHub_Final/
