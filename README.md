@@ -122,8 +122,7 @@ For a more organized summary, see:
 
 ## 🗂️ Project Structure
 <div align="center">
-
-```text
+<pre style="text-align:left; white-space:pre;">
 Diffusion_based_World_Models_GitHub_Final/
 ├── README.md
 ├── CONTRIBUTING.md
@@ -148,7 +147,8 @@ Diffusion_based_World_Models_GitHub_Final/
     ├── awesome-world-models.md
     ├── benchmarks.md
     └── survey-notes.md
-```
+</pre>
+</div>
 
 ---
 
