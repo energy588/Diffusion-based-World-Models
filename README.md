@@ -5,7 +5,7 @@
 ### A Living Survey, Curated Paper List, Taxonomy, Dataset Hub, and Research Roadmap
 
 <p>
-  <a href="https://arxiv.org/abs/2504.10724"><img src="https://img.shields.io/badge/Paper-arXiv%3A2504.10724-b31b1b?style=for-the-badge" alt="Paper"></a>
+  <a href="https://www.preprints.org/manuscript/202609.1022"><img src="https://img.shields.io/badge/Paper-preprints%3A202609.1022-b31b1b?style=for-the-badge" alt="Paper"></a>
   <img src="https://img.shields.io/badge/Papers-360%2B-4f46e5?style=for-the-badge" alt="360+ papers">
   <img src="https://img.shields.io/badge/Years-2016--2026-7c3aed?style=for-the-badge" alt="2016-2026">
   <img src="https://img.shields.io/badge/Domains-3%20Major%20Areas-059669?style=for-the-badge" alt="3 domains">
