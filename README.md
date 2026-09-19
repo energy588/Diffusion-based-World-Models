@@ -587,8 +587,8 @@ For category-wise browsing, see:
 ```bibtex
 @article{wang2026diffusionworldmodels,
   title   = {Diffusion-based World Models: A Survey},
-  author  = {Wang, Gang and Liu, Zhen and Zhou, Mingliang and Zhang, Yugui and Yang, Guang and Yang, Lei and Song, Ziying},
-  journal = {arXiv preprint arXiv:2504.10724},
+  author  = {Gang Wang, Zhen Liu, Mingliang Zhou, Ziying Song, Yugui Zhang, Lei Yang, Yuanyan Tang, Zheng Zhu, Lin Gu, Guang Yang},
+  journal = {Preprints.org preprint 202609.1022},
   year    = {2026}
 }
 ```
